@@ -1,0 +1,9 @@
+build/
+*.exe
+*.dll
+*.o
+*.obj
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+compile_commands.json
