@@ -1,1 +1,5 @@
-cmake --build /c/dev/build/hello-cpp && /c/dev/build/hello-cpp/hello_cpp.exe
+#!/usr/bin/env bash
+set -e
+
+cmake --build build
+./build/hello_cpp.exe "$@"
